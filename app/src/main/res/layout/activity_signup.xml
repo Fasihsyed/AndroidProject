@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3ad59d"
+    tools:context=".Signup">
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="5dp"
+
+        android:hint="Enter Your Full Name"
+        android:textColorHint="@color/black"
+        app:boxBackgroundColor="@color/white"
+        app:startIconDrawable="@drawable/baseline_person_24"
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/et_fullname"
+            android:background="@drawable/edit_text_design">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Email-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="5dp"
+        android:textColorHint="@color/black"
+
+        android:hint="Enter Your Email Address"
+        app:startIconDrawable="@drawable/baseline_email_24"
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/et_email"
+            android:background="@drawable/edit_text_design">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_margin="5dp"
+        android:hint="Enter Your Password "
+        android:textColorHint="@color/black"
+        style="@style/MaterialAlertDialog.MaterialComponents.Title.Panel.CenterStacked"
+        app:startIconDrawable="@drawable/baseline_password_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/et_password"
+            android:background="@drawable/edit_text_design">
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+
+    <!-- button regiter code-->
+    <Button
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:id="@+id/button_register"
+        android:textSize="20dp"
+        android:text="Signup"
+        android:layout_marginLeft="70dp"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_design"
+        />
+    <!--    android:layout_marginTop="30dp"-->
+    <!--        android:background="@drawable/button_design"/>-->
+    <TextView
+        android:id="@+id/click_tv"
+        android:layout_marginLeft="40dp"
+        android:textSize="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already heve an account? Sign in"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

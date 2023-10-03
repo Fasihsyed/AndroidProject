@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/addgroup"
+    android:title="Groups"
+    android:icon="@drawable/addgroup"/>
+    <item android:id="@+id/addfriends"
+        android:title="Friends"
+        android:icon="@drawable/addfriends"/>
+    <item android:id="@+id/addexpense"
+        android:title="Expense"
+        android:icon="@drawable/addexpense"/>
+    <item android:id="@+id/addaccount"
+        android:title="Accoount"
+       android:icon="@drawable/addaccount" />
+
+</menu>
